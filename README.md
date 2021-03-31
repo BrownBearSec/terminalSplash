@@ -10,8 +10,13 @@ Add or remove quotes by editing the `splashText.txt` file found in this director
 ## Installation
 
 `cd /opt`
-`git clone `
+
+`git clone https://github.com/iamSm9l/terminalSplash.git`
+
 `cd terminalSplash`
+
 `chmod +x install.sh`
+
+`./install.sh`
 
 

@@ -18,10 +18,9 @@ func main() {
 	}
 
 	randomQuoteIndex := rand.Intn(numOfLines)
-	fmt.Println("hit")
 
 	counter := 0
-	file, _ = os.Open("./splashText.txt")
+	file, _ = os.Open("/opt/terminalSplash/splashText.txt")
 	fileScanner = bufio.NewScanner(file)
 	for fileScanner.Scan() {
 		if counter == randomQuoteIndex {
